@@ -1,0 +1,54 @@
+]<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Ninjas</title>
+</head>
+<body>
+    <header>
+        <h1>Coding Ninjas</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="homepage.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <div id="registration-form">
+            <h2>Register</h2>
+            <form>
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="user-type">User Type:</label>
+                <select id="user-type" name="user-type" required>
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                </select>
+
+                <label for="course-selection">Course Selection:</label>
+                <select id="course-selection" name="course-selection" required>
+                    <option value="data-structures-and-algorithms">Data Structures and Algorithms</option>
+                    <option value="web-development">Web Development</option>
+                    </select>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </header>
+
+    </body>
+</html>
